@@ -1,0 +1,63 @@
+{
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "style": "Person",
+                            "url": "https://www.seekpng.com/png/full/301-3014207_events-comstor-uk-cisco-umbrella-logo-png.png",
+                            "size": "Medium",
+                            "height": "50px"
+                        }
+                    ],
+                    "width": "auto"
+                },
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "weight": "Bolder",
+                            "text": "UmbrellaBot",
+                            "wrap": true,
+                            "color": "Light",
+                            "size": "Large",
+                            "spacing": "Small"
+                        }
+                    ],
+                    "width": "stretch"
+                }
+            ]
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "{{ message }}",
+                            "wrap": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "¡Gracias por utilizar UmbrellaBot!",
+                            "wrap": true,
+                            "horizontalAlignment": "Center",
+                            "size": "Small"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.2"
+}

@@ -13,6 +13,8 @@ The objective of this project is to interact with a Webex bot, which can request
 
 1. Clone repo
 
+`git clone https://github.com/IKUSI-co/umbrella-bot-policies.git`
+
 2. Install the required libraries
 
 `pip install -r requirements.txt`
@@ -27,13 +29,13 @@ The objective of this project is to interact with a Webex bot, which can request
 
 5. Update `.env` with the ID of Organization and Destination List
 
-6. Update `.env` with the port you are going to use
-
 **Ngrok Configuration**
+
+6. Update `.env` with the port you are going to use
 
 7. Run the following command in Ngrok and update `.env` with your Forwarding under `NGROK_URL`
 
-`ngrok http http://localhost:8003`
+`ngrok http http://localhost:PORT`
 
 **Users Configuration**
 
